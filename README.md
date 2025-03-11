@@ -17,7 +17,7 @@ The main window receives all messages simultaneously through the mechanisms
 of delegates, events and asynchronous tasks and displays them showing the events 
 of each thread.
 
-<img src="media/NET_Message_Listener.png"/>
+<img src="media/NET_Message_Listener2.png"/>
 
 ## NET_AsynchronousEvents - Operation of the application.
 
@@ -36,6 +36,7 @@ Then it runs the main action GenerateAction() of the [cPublisher] instance and F
 locally terminates.
 The cPublisher instance works for a few seconds (randomly), it is asynchronous, 
 so it works in a new thread.
+
 When the button is pressed several times and quickly - several parallel instances 
 of [cPublisher] will work in the background.
 It then looks like this: Form1 listens and external threads of several 
